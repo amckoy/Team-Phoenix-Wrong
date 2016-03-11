@@ -38,6 +38,9 @@ public class MergeSortTester
       int repeats = 0;
       while (repeats < 10){
         int begin = System.currentTimeMillis();
+        //insert algorithm here.......
+        //not sure how to do this....do we just import all of MergeSort and call it here?
+        
         int end = System.currentTimeMillis();
         average += end - begin;
       }
