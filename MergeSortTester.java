@@ -34,7 +34,16 @@ public class MergeSortTester
      ******************************/
     public static void main( String[] args ) 
     {
-
+      int average = 0;
+      int repeats = 0;
+      while (repeats < 10){
+        int begin = System.currentTimeMillis();
+        int end = System.currentTimeMillis();
+        average += end - begin;
+      }
+      repeats = 0
+      System.out.println(average / 10);
+  
     }//end main
 
 }//end class
