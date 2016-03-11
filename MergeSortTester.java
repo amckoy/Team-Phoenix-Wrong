@@ -43,6 +43,7 @@ public class MergeSortTester
       }
       repeats = 0
       System.out.println(average / 10);
+      average = 0;
   
     }//end main
 
